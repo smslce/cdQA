@@ -15,7 +15,7 @@ setup(
     long_description_content_type="text/markdown",
     keywords="reading comprehension question answering deep learning natural language processing information retrieval bert",
     license="Apache-2.0",
-    url="https://github.com/cdqa-suite/cdQA",
+    url="https://github.com/smslce/cdQA",
     packages=find_packages(),
     install_requires=read("requirements.txt").split(),
 )

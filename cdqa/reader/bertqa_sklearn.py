@@ -721,6 +721,7 @@ def write_predictions(
 
         nbest_json = []
         for (i, entry) in enumerate(nbest):
+		  if probs[i] >= 0.5:
             output = {}
             output["text"] = entry.text
             output["probability"] = probs[i]
